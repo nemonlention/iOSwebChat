@@ -24,7 +24,7 @@
 @property (nonatomic, copy) NSString * imUserNick;
 
 /**
- * 用户Logo(可选)
+ * 从url下载动态用户头像(可选)
  */
 @property (nonatomic,copy)NSString * logoUrl;
 
@@ -69,7 +69,7 @@
 @property (nonatomic,strong)UIColor * tabBackColo;
 
 /**
- * 文字大小(可选，默认 17.0f)
+ * 双方聊天文字大小(可选，默认 17.0f)  最小值为16.0
  */
 @property (nonatomic,strong)UIFont * textFont;
 
